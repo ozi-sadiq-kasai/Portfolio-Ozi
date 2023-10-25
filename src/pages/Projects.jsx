@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import diary from '../assets/Medic-Diary.png'
 import menu from '../assets/CBAE MENU.png'
 import apparel from "../assets/myapparel.png"
+import book from '../assets/the-bookstore.png'
 import { AiOutlineGithub } from 'react-icons/ai'
 
 const Projects = () => {
@@ -22,6 +23,22 @@ const Projects = () => {
             </p>
             <Link
               to="https://github.com/ozi-sadiq-kasai/medic-diary"
+              target="_blank"
+            >
+              <AiOutlineGithub size={29} className="bg-army w-full py-1" />
+            </Link>
+          </li>
+
+          {/* the BookStore */}
+          <li className="border-4 border-light-army max-sm:full m-auto mb-16 drop-shadow-xl rounded md:w-3/5">
+            <Link to="https://the-bookstore.vercel.app/" target="_blank">
+              <img src={book} alt="" className="w-full" />
+            </Link>
+            <p className="bg-army text-light-army max-sm:p-2 text-center">
+              A fully responsive e-bookstore with complete cart functionalities.
+            </p>
+            <Link
+              to="https://github.com/ozi-sadiq-kasai/the-bookstore"
               target="_blank"
             >
               <AiOutlineGithub size={29} className="bg-army w-full py-1" />
@@ -57,7 +74,7 @@ const Projects = () => {
               css.
             </p>
             <Link
-              to="https://github.com/ozi-sadiq-kasai/react-cbae-menu/tree/main"
+              to="https://github.com/ozi-sadiq-kasai/my-apparel"
               target="_blank"
             >
               <AiOutlineGithub size={29} className="bg-army w-full py-1" />
