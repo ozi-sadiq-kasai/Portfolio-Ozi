@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import diary from '../assets/Medic-Diary.png'
 import menu from '../assets/CBAE MENU.png'
-import apparel from "../assets/myapparel.png"
+import amazon from "../assets/amazon.png"
 import book from '../assets/the-bookstore.png'
 import { AiOutlineGithub } from 'react-icons/ai'
 
@@ -63,18 +63,14 @@ const Projects = () => {
 
           {/* Apparel */}
           <li className="border-4 border-light-army max-sm:full m-auto mb-16 drop-shadow-xl rounded md:w-3/5">
-            <Link
-              to="https://my-apparel-101ahz9n7-infobakearoo-gmailcom.vercel.app/"
-              target="_blank"
-            >
-              <img src={apparel} alt="" className="w-full" />
+            <Link to="https://amazon-zeta-rose.vercel.app/" target="_blank">
+              <img src={amazon} alt="" className="w-full" />
             </Link>
             <p className="bg-army text-light-army max-sm:p-2 text-center">
-              A responsive clothing landing page built with React and Vanilla
-              css.
+              A responsive Ecommerce website with cart functionalities.
             </p>
             <Link
-              to="https://github.com/ozi-sadiq-kasai/my-apparel"
+              to="https://github.com/ozi-sadiq-kasai/amazon"
               target="_blank"
             >
               <AiOutlineGithub size={29} className="bg-army w-full py-1" />
